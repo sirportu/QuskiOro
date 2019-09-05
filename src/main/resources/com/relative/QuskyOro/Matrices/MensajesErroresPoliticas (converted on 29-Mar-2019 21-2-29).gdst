@@ -124,14 +124,14 @@ variablesNegocio.setMensaje(variablesNegocio.getMensaje()+&quot;^;&quot;+&quot;@
   <imports>
     <imports>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.SimularResult</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.SimularResult</type>
       </org.kie.soup.project.datamodel.imports.Import>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio</type>
       </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
-  <packageName>com.relative.QuskyOro.Matrices</packageName>
+  <packageName>com.relative.QuskiOro.Matrices</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>

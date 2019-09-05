@@ -50,7 +50,7 @@
                           <genericType>String</genericType>
                         </next>
                         <name>garantia</name>
-                        <classType>com.relative.QuskyOro.ObjetosNegocio.Garantia</classType>
+                        <classType>com.relative.QuskiOro.ObjetosNegocio.Garantia</classType>
                         <genericType>this</genericType>
                       </next>
                       <name>Garantia</name>
@@ -80,7 +80,7 @@
           <factField>getTipoOroKilataje()</factField>
           <fieldType>String</fieldType>
           <varName>param1</varName>
-          <factType>com.relative.QuskyOro.ObjetosNegocio.Garantia</factType>
+          <factType>com.relative.QuskiOro.ObjetosNegocio.Garantia</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
@@ -119,11 +119,11 @@
   <imports>
     <imports>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.Garantia</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.Garantia</type>
       </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
-  <packageName>com.relative.QuskyOro.Matrices</packageName>
+  <packageName>com.relative.QuskiOro.Matrices</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>

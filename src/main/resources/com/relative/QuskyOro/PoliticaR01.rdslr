@@ -1,7 +1,7 @@
-package com.relative.QuskyOro;
+package com.relative.QuskiOro;
 
-import com.relative.QuskyOro.ObjetosNegocio.Cliente;
-import com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio;
+import com.relative.QuskiOro.ObjetosNegocio.Cliente;
+import com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio;
 
 rule "PoliticaR01"
 	dialect "mvel"

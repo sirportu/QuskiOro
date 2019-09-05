@@ -26,19 +26,19 @@
         <type>java.util.ArrayList</type>
       </import>
       <import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.Cliente</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.Cliente</type>
       </import>
       <import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.Opcion</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.Opcion</type>
       </import>
       <import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.OpcionesRenovacion</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.OpcionesRenovacion</type>
       </import>
       <import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio</type>
       </import>
       <import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.Garantia</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.Garantia</type>
       </import>
     </imports>
   </imports>

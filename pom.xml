@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.relative</groupId>
-  <artifactId>QuskyOro</artifactId>
+  <artifactId>QuskiOro</artifactId>
   <version>3.1.1</version>
   <packaging>kjar</packaging>
-  <name>QuskyOro</name>
+  <name>QuskiOro</name>
   <description>Bpm para proceso de analisis de oro</description>
   <dependencies>
     <dependency>

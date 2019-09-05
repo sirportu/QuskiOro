@@ -212,20 +212,20 @@ opcionRenovacion.getOpcion().add(opcion);</text>
   <imports>
     <imports>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.Cliente</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.Cliente</type>
       </org.kie.soup.project.datamodel.imports.Import>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.Opcion</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.Opcion</type>
       </org.kie.soup.project.datamodel.imports.Import>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.OpcionesRenovacion</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.OpcionesRenovacion</type>
       </org.kie.soup.project.datamodel.imports.Import>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio</type>
       </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
-  <packageName>com.relative.QuskyOro.Matrices</packageName>
+  <packageName>com.relative.QuskiOro.Matrices</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>

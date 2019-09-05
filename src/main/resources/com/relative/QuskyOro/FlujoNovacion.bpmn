@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_8bG58M7AEem73flIFC4t1Q" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
-  <bpmn2:itemDefinition id="_CargaItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Carga"/>
-  <bpmn2:itemDefinition id="_opcionItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Opcion"/>
-  <bpmn2:itemDefinition id="_clienteItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Cliente"/>
-  <bpmn2:itemDefinition id="_variablesNegocioItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio"/>
+  <bpmn2:itemDefinition id="_CargaItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Carga"/>
+  <bpmn2:itemDefinition id="_opcionItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Opcion"/>
+  <bpmn2:itemDefinition id="_clienteItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Cliente"/>
+  <bpmn2:itemDefinition id="_variablesNegocioItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio"/>
   <bpmn2:itemDefinition id="_indexItem" structureRef="Integer"/>
-  <bpmn2:itemDefinition id="_garantiaItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Garantia"/>
-  <bpmn2:itemDefinition id="_opcionRenovacionItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.OpcionesRenovacion"/>
+  <bpmn2:itemDefinition id="_garantiaItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Garantia"/>
+  <bpmn2:itemDefinition id="_opcionRenovacionItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.OpcionesRenovacion"/>
   <bpmn2:itemDefinition id="_salidaItem" structureRef="String"/>
-  <bpmn2:itemDefinition id="_simularResultItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.SimularResult"/>
-  <bpmn2:itemDefinition id="_descuentosNuevaOperacionItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.DescuentosOperacion"/>
-  <bpmn2:itemDefinition id="_seguroItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar"/>
-  <bpmn2:itemDefinition id="_tasadorItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar"/>
-  <bpmn2:itemDefinition id="_transporteItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar"/>
-  <bpmn2:itemDefinition id="_valoracionItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar"/>
-  <bpmn2:itemDefinition id="_custodiaItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar"/>
-  <bpmn2:itemDefinition id="_fideicomisoItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar"/>
+  <bpmn2:itemDefinition id="_simularResultItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.SimularResult"/>
+  <bpmn2:itemDefinition id="_descuentosNuevaOperacionItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.DescuentosOperacion"/>
+  <bpmn2:itemDefinition id="_seguroItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar"/>
+  <bpmn2:itemDefinition id="_tasadorItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar"/>
+  <bpmn2:itemDefinition id="_transporteItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar"/>
+  <bpmn2:itemDefinition id="_valoracionItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar"/>
+  <bpmn2:itemDefinition id="_custodiaItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar"/>
+  <bpmn2:itemDefinition id="_fideicomisoItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar"/>
   <bpmn2:itemDefinition id="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_namespaceInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_modelInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_decisionInputXItem" structureRef="java.lang.String"/>
-  <bpmn2:itemDefinition id="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_clienteInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Cliente"/>
-  <bpmn2:itemDefinition id="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_opcionInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Opcion"/>
-  <bpmn2:itemDefinition id="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_clienteOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Cliente"/>
-  <bpmn2:itemDefinition id="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_opcionOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Opcion"/>
+  <bpmn2:itemDefinition id="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_clienteInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Cliente"/>
+  <bpmn2:itemDefinition id="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_opcionInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Opcion"/>
+  <bpmn2:itemDefinition id="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_clienteOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Cliente"/>
+  <bpmn2:itemDefinition id="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_opcionOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Opcion"/>
   <bpmn2:itemDefinition id="__C311A382-789D-44FD-B63F-77131CBCC38D_namespaceInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__C311A382-789D-44FD-B63F-77131CBCC38D_modelInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__C311A382-789D-44FD-B63F-77131CBCC38D_decisionInputXItem" structureRef="java.lang.String"/>
-  <bpmn2:itemDefinition id="__C311A382-789D-44FD-B63F-77131CBCC38D_garantiaInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Garantia"/>
-  <bpmn2:itemDefinition id="__C311A382-789D-44FD-B63F-77131CBCC38D_garantiaOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Garantia"/>
+  <bpmn2:itemDefinition id="__C311A382-789D-44FD-B63F-77131CBCC38D_garantiaInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Garantia"/>
+  <bpmn2:itemDefinition id="__C311A382-789D-44FD-B63F-77131CBCC38D_garantiaOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Garantia"/>
   <bpmn2:itemDefinition id="__A05B98CA-7075-49B0-A50A-193E60823D96_namespaceInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__A05B98CA-7075-49B0-A50A-193E60823D96_modelInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__A05B98CA-7075-49B0-A50A-193E60823D96_decisionInputXItem" structureRef="java.lang.String"/>
-  <bpmn2:itemDefinition id="__A05B98CA-7075-49B0-A50A-193E60823D96_opcionRenovacionInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.OpcionesRenovacion"/>
-  <bpmn2:itemDefinition id="__A05B98CA-7075-49B0-A50A-193E60823D96_clienteInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Cliente"/>
-  <bpmn2:itemDefinition id="__A05B98CA-7075-49B0-A50A-193E60823D96_variablesNegocioInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio"/>
-  <bpmn2:itemDefinition id="__A05B98CA-7075-49B0-A50A-193E60823D96_opcionRenovacionOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.OpcionesRenovacion"/>
-  <bpmn2:itemDefinition id="__A05B98CA-7075-49B0-A50A-193E60823D96_clienteOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Cliente"/>
-  <bpmn2:itemDefinition id="__A05B98CA-7075-49B0-A50A-193E60823D96_variablesNegocioOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio"/>
+  <bpmn2:itemDefinition id="__A05B98CA-7075-49B0-A50A-193E60823D96_opcionRenovacionInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.OpcionesRenovacion"/>
+  <bpmn2:itemDefinition id="__A05B98CA-7075-49B0-A50A-193E60823D96_clienteInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Cliente"/>
+  <bpmn2:itemDefinition id="__A05B98CA-7075-49B0-A50A-193E60823D96_variablesNegocioInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio"/>
+  <bpmn2:itemDefinition id="__A05B98CA-7075-49B0-A50A-193E60823D96_opcionRenovacionOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.OpcionesRenovacion"/>
+  <bpmn2:itemDefinition id="__A05B98CA-7075-49B0-A50A-193E60823D96_clienteOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Cliente"/>
+  <bpmn2:itemDefinition id="__A05B98CA-7075-49B0-A50A-193E60823D96_variablesNegocioOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio"/>
   <bpmn2:itemDefinition id="__8E9A8E05-1644-417C-97F8-221E7C538E41_namespaceInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__8E9A8E05-1644-417C-97F8-221E7C538E41_modelInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__8E9A8E05-1644-417C-97F8-221E7C538E41_decisionInputXItem" structureRef="java.lang.String"/>
-  <bpmn2:itemDefinition id="__8E9A8E05-1644-417C-97F8-221E7C538E41_clienteInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Cliente"/>
-  <bpmn2:itemDefinition id="__8E9A8E05-1644-417C-97F8-221E7C538E41_variablesNegocioInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio"/>
-  <bpmn2:itemDefinition id="__8E9A8E05-1644-417C-97F8-221E7C538E41_clienteOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Cliente"/>
-  <bpmn2:itemDefinition id="__8E9A8E05-1644-417C-97F8-221E7C538E41_variablesNegocioOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio"/>
+  <bpmn2:itemDefinition id="__8E9A8E05-1644-417C-97F8-221E7C538E41_clienteInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Cliente"/>
+  <bpmn2:itemDefinition id="__8E9A8E05-1644-417C-97F8-221E7C538E41_variablesNegocioInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio"/>
+  <bpmn2:itemDefinition id="__8E9A8E05-1644-417C-97F8-221E7C538E41_clienteOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Cliente"/>
+  <bpmn2:itemDefinition id="__8E9A8E05-1644-417C-97F8-221E7C538E41_variablesNegocioOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio"/>
   <bpmn2:itemDefinition id="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_namespaceInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_modelInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_decisionInputXItem" structureRef="java.lang.String"/>
-  <bpmn2:itemDefinition id="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_variablesNegocioInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio"/>
-  <bpmn2:itemDefinition id="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_simularResultInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.SimularResult"/>
-  <bpmn2:itemDefinition id="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_variablesNegocioOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio"/>
-  <bpmn2:itemDefinition id="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_simularResultOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.SimularResult"/>
+  <bpmn2:itemDefinition id="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_variablesNegocioInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio"/>
+  <bpmn2:itemDefinition id="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_simularResultInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.SimularResult"/>
+  <bpmn2:itemDefinition id="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_variablesNegocioOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio"/>
+  <bpmn2:itemDefinition id="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_simularResultOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.SimularResult"/>
   <bpmn2:itemDefinition id="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_namespaceInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_modelInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_decisionInputXItem" structureRef="java.lang.String"/>
-  <bpmn2:itemDefinition id="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_clienteInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Cliente"/>
-  <bpmn2:itemDefinition id="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_variablesNegocioInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio"/>
-  <bpmn2:itemDefinition id="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_clienteOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Cliente"/>
-  <bpmn2:itemDefinition id="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_variablesNegocioOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio"/>
+  <bpmn2:itemDefinition id="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_clienteInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Cliente"/>
+  <bpmn2:itemDefinition id="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_variablesNegocioInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio"/>
+  <bpmn2:itemDefinition id="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_clienteOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Cliente"/>
+  <bpmn2:itemDefinition id="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_variablesNegocioOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio"/>
   <bpmn2:itemDefinition id="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_namespaceInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_modelInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_decisionInputXItem" structureRef="java.lang.String"/>
-  <bpmn2:itemDefinition id="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_opcionInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Opcion"/>
-  <bpmn2:itemDefinition id="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_variablesNegocioInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio"/>
-  <bpmn2:itemDefinition id="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_opcionOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Opcion"/>
-  <bpmn2:itemDefinition id="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_variablesNegocioOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio"/>
+  <bpmn2:itemDefinition id="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_opcionInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Opcion"/>
+  <bpmn2:itemDefinition id="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_variablesNegocioInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio"/>
+  <bpmn2:itemDefinition id="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_opcionOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Opcion"/>
+  <bpmn2:itemDefinition id="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_variablesNegocioOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio"/>
   <bpmn2:itemDefinition id="__69991960-AB30-4DD3-8CF8-045639E8D28C_namespaceInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__69991960-AB30-4DD3-8CF8-045639E8D28C_modelInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__69991960-AB30-4DD3-8CF8-045639E8D28C_decisionInputXItem" structureRef="java.lang.String"/>
-  <bpmn2:itemDefinition id="__69991960-AB30-4DD3-8CF8-045639E8D28C_clienteInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Cliente"/>
-  <bpmn2:itemDefinition id="__69991960-AB30-4DD3-8CF8-045639E8D28C_opcionInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Opcion"/>
-  <bpmn2:itemDefinition id="__69991960-AB30-4DD3-8CF8-045639E8D28C_variablesNegocioInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio"/>
-  <bpmn2:itemDefinition id="__69991960-AB30-4DD3-8CF8-045639E8D28C_clienteOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Cliente"/>
-  <bpmn2:itemDefinition id="__69991960-AB30-4DD3-8CF8-045639E8D28C_opcionOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Opcion"/>
-  <bpmn2:itemDefinition id="__69991960-AB30-4DD3-8CF8-045639E8D28C_variablesNegocioOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio"/>
+  <bpmn2:itemDefinition id="__69991960-AB30-4DD3-8CF8-045639E8D28C_clienteInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Cliente"/>
+  <bpmn2:itemDefinition id="__69991960-AB30-4DD3-8CF8-045639E8D28C_opcionInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Opcion"/>
+  <bpmn2:itemDefinition id="__69991960-AB30-4DD3-8CF8-045639E8D28C_variablesNegocioInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio"/>
+  <bpmn2:itemDefinition id="__69991960-AB30-4DD3-8CF8-045639E8D28C_clienteOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Cliente"/>
+  <bpmn2:itemDefinition id="__69991960-AB30-4DD3-8CF8-045639E8D28C_opcionOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Opcion"/>
+  <bpmn2:itemDefinition id="__69991960-AB30-4DD3-8CF8-045639E8D28C_variablesNegocioOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio"/>
   <bpmn2:itemDefinition id="__E67BCD83-291B-495D-934E-BA09CD904CB2_namespaceInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__E67BCD83-291B-495D-934E-BA09CD904CB2_modelInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__E67BCD83-291B-495D-934E-BA09CD904CB2_decisionInputXItem" structureRef="java.lang.String"/>
-  <bpmn2:itemDefinition id="__E67BCD83-291B-495D-934E-BA09CD904CB2_opcionInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Opcion"/>
-  <bpmn2:itemDefinition id="__E67BCD83-291B-495D-934E-BA09CD904CB2_clienteInputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Cliente"/>
-  <bpmn2:itemDefinition id="__E67BCD83-291B-495D-934E-BA09CD904CB2_opcionOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Opcion"/>
-  <bpmn2:itemDefinition id="__E67BCD83-291B-495D-934E-BA09CD904CB2_clienteOutputXItem" structureRef="com.relative.QuskyOro.ObjetosNegocio.Cliente"/>
-  <bpmn2:process id="QuskyOro.FlujoNovacion" drools:packageName="com.relative.QuskyOro" drools:version="1.0" drools:adHoc="false" name="FlujoNovacion" isExecutable="true">
+  <bpmn2:itemDefinition id="__E67BCD83-291B-495D-934E-BA09CD904CB2_opcionInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Opcion"/>
+  <bpmn2:itemDefinition id="__E67BCD83-291B-495D-934E-BA09CD904CB2_clienteInputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Cliente"/>
+  <bpmn2:itemDefinition id="__E67BCD83-291B-495D-934E-BA09CD904CB2_opcionOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Opcion"/>
+  <bpmn2:itemDefinition id="__E67BCD83-291B-495D-934E-BA09CD904CB2_clienteOutputXItem" structureRef="com.relative.QuskiOro.ObjetosNegocio.Cliente"/>
+  <bpmn2:process id="QuskiOro.FlujoNovacion" drools:packageName="com.relative.QuskiOro" drools:version="1.0" drools:adHoc="false" name="FlujoNovacion" isExecutable="true">
     <bpmn2:property id="Carga" itemSubjectRef="_CargaItem" name="Carga"/>
     <bpmn2:property id="opcion" itemSubjectRef="_opcionItem" name="opcion"/>
     <bpmn2:property id="cliente" itemSubjectRef="_clienteItem" name="cliente"/>
@@ -266,11 +266,11 @@ PreciosTask]]></drools:metaValue>
       <bpmn2:script><![CDATA[//EJEMPO PARA REPLACE Y BUSQUEDA EN LISTA
 /*Double valorOnza = 0.0;
 System.out.println("entro en Flujo Novaciones");
-valorOnza = Double.parseDouble(Carga.getXmlVariablesInternas().getVariablesInternas().getVariable().stream().filter(variable -> variableValorOnzaTroy.replaceAll(" ","").equals(variable.getNombre().replaceAll(" ",""))).findFirst().orElse(new com.relative.QuskyOro.ObjetosNegocio.Variable(0,"","0.0")).getValor());
+valorOnza = Double.parseDouble(Carga.getXmlVariablesInternas().getVariablesInternas().getVariable().stream().filter(variable -> variableValorOnzaTroy.replaceAll(" ","").equals(variable.getNombre().replaceAll(" ",""))).findFirst().orElse(new com.relative.QuskiOro.ObjetosNegocio.Variable(0,"","0.0")).getValor());
 */
 
 //CREAMOS NUEVA INSTANCIA DEL OBJETO DE GARANTIA
-garantia = new com.relative.QuskyOro.ObjetosNegocio.Garantia();
+garantia = new com.relative.QuskiOro.ObjetosNegocio.Garantia();
 kcontext.setVariable("garantia",garantia);
 
 //REINICIAMOS EL INDEX
@@ -374,10 +374,10 @@ TerceraEdadTask]]></drools:metaValue>
       <bpmn2:incoming>_33D350A0-AD19-4F2C-9E0B-028C91B30644</bpmn2:incoming>
       <bpmn2:outgoing>_65CC917E-EB81-4459-ABC6-1A723FED3F77</bpmn2:outgoing>
       <bpmn2:ioSpecification id="_8bHhAM7AEem73flIFC4t1Q">
-        <bpmn2:dataInput id="_E67BCD83-291B-495D-934E-BA09CD904CB2_opcionInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Opcion" itemSubjectRef="__E67BCD83-291B-495D-934E-BA09CD904CB2_opcionInputXItem" name="opcion"/>
-        <bpmn2:dataInput id="_E67BCD83-291B-495D-934E-BA09CD904CB2_clienteInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Cliente" itemSubjectRef="__E67BCD83-291B-495D-934E-BA09CD904CB2_clienteInputXItem" name="cliente"/>
-        <bpmn2:dataOutput id="_E67BCD83-291B-495D-934E-BA09CD904CB2_opcionOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Opcion" itemSubjectRef="__E67BCD83-291B-495D-934E-BA09CD904CB2_opcionOutputXItem" name="opcion"/>
-        <bpmn2:dataOutput id="_E67BCD83-291B-495D-934E-BA09CD904CB2_clienteOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Cliente" itemSubjectRef="__E67BCD83-291B-495D-934E-BA09CD904CB2_clienteOutputXItem" name="cliente"/>
+        <bpmn2:dataInput id="_E67BCD83-291B-495D-934E-BA09CD904CB2_opcionInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Opcion" itemSubjectRef="__E67BCD83-291B-495D-934E-BA09CD904CB2_opcionInputXItem" name="opcion"/>
+        <bpmn2:dataInput id="_E67BCD83-291B-495D-934E-BA09CD904CB2_clienteInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Cliente" itemSubjectRef="__E67BCD83-291B-495D-934E-BA09CD904CB2_clienteInputXItem" name="cliente"/>
+        <bpmn2:dataOutput id="_E67BCD83-291B-495D-934E-BA09CD904CB2_opcionOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Opcion" itemSubjectRef="__E67BCD83-291B-495D-934E-BA09CD904CB2_opcionOutputXItem" name="opcion"/>
+        <bpmn2:dataOutput id="_E67BCD83-291B-495D-934E-BA09CD904CB2_clienteOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Cliente" itemSubjectRef="__E67BCD83-291B-495D-934E-BA09CD904CB2_clienteOutputXItem" name="cliente"/>
         <bpmn2:inputSet id="_8bHhAc7AEem73flIFC4t1Q">
           <bpmn2:dataInputRefs>_E67BCD83-291B-495D-934E-BA09CD904CB2_opcionInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_E67BCD83-291B-495D-934E-BA09CD904CB2_clienteInputX</bpmn2:dataInputRefs>
@@ -415,12 +415,12 @@ ServiciosTask]]></drools:metaValue>
       <bpmn2:incoming>_65CC917E-EB81-4459-ABC6-1A723FED3F77</bpmn2:incoming>
       <bpmn2:outgoing>_F149D599-6C8A-423D-A4C9-76719E141170</bpmn2:outgoing>
       <bpmn2:ioSpecification id="_8bHhB87AEem73flIFC4t1Q">
-        <bpmn2:dataInput id="_69991960-AB30-4DD3-8CF8-045639E8D28C_clienteInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Cliente" itemSubjectRef="__69991960-AB30-4DD3-8CF8-045639E8D28C_clienteInputXItem" name="cliente"/>
-        <bpmn2:dataInput id="_69991960-AB30-4DD3-8CF8-045639E8D28C_opcionInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Opcion" itemSubjectRef="__69991960-AB30-4DD3-8CF8-045639E8D28C_opcionInputXItem" name="opcion"/>
-        <bpmn2:dataInput id="_69991960-AB30-4DD3-8CF8-045639E8D28C_variablesNegocioInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__69991960-AB30-4DD3-8CF8-045639E8D28C_variablesNegocioInputXItem" name="variablesNegocio"/>
-        <bpmn2:dataOutput id="_69991960-AB30-4DD3-8CF8-045639E8D28C_clienteOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Cliente" itemSubjectRef="__69991960-AB30-4DD3-8CF8-045639E8D28C_clienteOutputXItem" name="cliente"/>
-        <bpmn2:dataOutput id="_69991960-AB30-4DD3-8CF8-045639E8D28C_opcionOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Opcion" itemSubjectRef="__69991960-AB30-4DD3-8CF8-045639E8D28C_opcionOutputXItem" name="opcion"/>
-        <bpmn2:dataOutput id="_69991960-AB30-4DD3-8CF8-045639E8D28C_variablesNegocioOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__69991960-AB30-4DD3-8CF8-045639E8D28C_variablesNegocioOutputXItem" name="variablesNegocio"/>
+        <bpmn2:dataInput id="_69991960-AB30-4DD3-8CF8-045639E8D28C_clienteInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Cliente" itemSubjectRef="__69991960-AB30-4DD3-8CF8-045639E8D28C_clienteInputXItem" name="cliente"/>
+        <bpmn2:dataInput id="_69991960-AB30-4DD3-8CF8-045639E8D28C_opcionInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Opcion" itemSubjectRef="__69991960-AB30-4DD3-8CF8-045639E8D28C_opcionInputXItem" name="opcion"/>
+        <bpmn2:dataInput id="_69991960-AB30-4DD3-8CF8-045639E8D28C_variablesNegocioInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__69991960-AB30-4DD3-8CF8-045639E8D28C_variablesNegocioInputXItem" name="variablesNegocio"/>
+        <bpmn2:dataOutput id="_69991960-AB30-4DD3-8CF8-045639E8D28C_clienteOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Cliente" itemSubjectRef="__69991960-AB30-4DD3-8CF8-045639E8D28C_clienteOutputXItem" name="cliente"/>
+        <bpmn2:dataOutput id="_69991960-AB30-4DD3-8CF8-045639E8D28C_opcionOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Opcion" itemSubjectRef="__69991960-AB30-4DD3-8CF8-045639E8D28C_opcionOutputXItem" name="opcion"/>
+        <bpmn2:dataOutput id="_69991960-AB30-4DD3-8CF8-045639E8D28C_variablesNegocioOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__69991960-AB30-4DD3-8CF8-045639E8D28C_variablesNegocioOutputXItem" name="variablesNegocio"/>
         <bpmn2:inputSet id="_8bHhCM7AEem73flIFC4t1Q">
           <bpmn2:dataInputRefs>_69991960-AB30-4DD3-8CF8-045639E8D28C_clienteInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_69991960-AB30-4DD3-8CF8-045639E8D28C_opcionInputX</bpmn2:dataInputRefs>
@@ -478,14 +478,14 @@ ServiciosTask]]></drools:metaValue>
       <bpmn2:incoming>_F149D599-6C8A-423D-A4C9-76719E141170</bpmn2:incoming>
       <bpmn2:outgoing>_F6B7951D-F046-4122-A0DE-AEDBB1335999</bpmn2:outgoing>
       <bpmn2:script><![CDATA[// Clase para ordenar 
-//objetoAOrdenar=new com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar();
+//objetoAOrdenar=new com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar();
 
-seguro=new com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar();
-tasador=new com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar();
-transporte=new com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar();
-valoracion=new com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar();
-custodia=new com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar();
-fideicomiso=new com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar();
+seguro=new com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar();
+tasador=new com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar();
+transporte=new com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar();
+valoracion=new com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar();
+custodia=new com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar();
+fideicomiso=new com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar();
         
 
 //GESTIONAMOS TODOS LSO COSTOS DE LOS SERVICIOS
@@ -602,7 +602,7 @@ if(montoCalculadoDesembolso>=cobranzaCreditoAnterior && montoCalculadoDesembolso
         fideicomiso.setItem("Fideicomiso");
         fideicomiso.setValor(opcion.getCostoFideicomiso());
 
-        java.util.ArrayList listaObjeto=new java.util.ArrayList<com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar>();
+        java.util.ArrayList listaObjeto=new java.util.ArrayList<com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar>();
 
         listaObjeto.add(seguro);
         listaObjeto.add(tasador);
@@ -613,14 +613,14 @@ if(montoCalculadoDesembolso>=cobranzaCreditoAnterior && montoCalculadoDesembolso
         
 
          //mundo(arregloOrdenValor);
-         double val=((com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar)listaObjeto.get(1)).getValor();
+         double val=((com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar)listaObjeto.get(1)).getValor();
 
  //mundo(arregloOrdenValor);
  for (int x=0;x<=5;x++){
     for (int i = 0; i <= 5-x-1; i++) {
-        if(((com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar)listaObjeto.get(i)).getValor() < ((com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar)listaObjeto.get(i+1)).getValor())
+        if(((com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar)listaObjeto.get(i)).getValor() < ((com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar)listaObjeto.get(i+1)).getValor())
         {
-            com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar tmp = (com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar)listaObjeto.get(i+1);
+            com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar tmp = (com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar)listaObjeto.get(i+1);
             listaObjeto.set(i+1, listaObjeto.get(i));
             listaObjeto.set(i, tmp);
         }
@@ -629,13 +629,13 @@ if(montoCalculadoDesembolso>=cobranzaCreditoAnterior && montoCalculadoDesembolso
 
   for (int z=0;z<=5;z++)
   {
-      System.out.println(((com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar)listaObjeto.get(z)).getItem()+"--"+((com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar)listaObjeto.get(z)).getValor());
+      System.out.println(((com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar)listaObjeto.get(z)).getItem()+"--"+((com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar)listaObjeto.get(z)).getValor());
   }
 
 // suma de todas las formas de pago capitalizados los tipo pago capitalizado capital custodia y cobranza estan mas abajo
         //FM Fideicomiso (Resguardo)
         for (int a=0;a<=5;a++){
-            switch (((com.relative.QuskyOro.ObjetosNegocio.ObjetoAOrdenar)listaObjeto.get(a)).getItem()) {
+            switch (((com.relative.QuskiOro.ObjetosNegocio.ObjetoAOrdenar)listaObjeto.get(a)).getItem()) {
                 case "Seguro":
                 if(montoCalculadoDesembolso>=opcion.getCostoSeguro() && montoCalculadoDesembolso>0.00){
                     //opcion.setFormaPagoSeguro("C");
@@ -923,7 +923,7 @@ ServiciosTask]]></drools:metaValue>
       <bpmn2:incoming>_B85D5122-814E-41E3-A6DA-150FD096AD93</bpmn2:incoming>
       <bpmn2:outgoing>_640FDC30-98C6-4707-90C1-E767BD970697</bpmn2:outgoing>
       <bpmn2:script><![CDATA[//CREAMOS UN OBJETO OPCION AUXILIAR PARA GESTIONAR TODAS LAS OPCIONES DE RENOVACION
-opcion = new com.relative.QuskyOro.ObjetosNegocio.Opcion();
+opcion = new com.relative.QuskiOro.ObjetosNegocio.Opcion();
 kcontext.setVariable("opcion",opcion);
 
 //INSTANCIAMOS EL INDEX
@@ -948,7 +948,7 @@ System.out.println("<<<Total garantias: "+variablesNegocio.getTotalGarantia()+">
       <bpmn2:incoming>_C6AADF58-AA5F-4D91-9C1F-62297CB1A7AF</bpmn2:incoming>
       <bpmn2:outgoing>_0E1675AB-1678-41A5-98CC-FF6996F696A9</bpmn2:outgoing>
       <bpmn2:script><![CDATA[//INSTANCIAMOS EL OBJETO QUE ENVIARA TODO EL OUTPUT
-com.relative.QuskyOro.ObjetosNegocio.SimularResultNovaciones simularResultAux = new com.relative.QuskyOro.ObjetosNegocio.SimularResultNovaciones();
+com.relative.QuskiOro.ObjetosNegocio.SimularResultNovaciones simularResultAux = new com.relative.QuskiOro.ObjetosNegocio.SimularResultNovaciones();
 
 //SETEAMOS LOS VALORES POR DEFECTO DE LOS MENSAJES DE ERROR
 simularResultAux.setCodigoError(variablesNegocio.getCodigoError());
@@ -962,7 +962,7 @@ if(simularResultAux.getCodigoError().equals("0") && opcionRenovacion.getOpcion()
     simularResultAux.setCodigoError((String)kcontext.getKnowledgeRuntime().getGlobal("CodigoErrorSinCredito"));
     simularResultAux.setMensaje((String)kcontext.getKnowledgeRuntime().getGlobal("MensajeErrorSinCredito")); 
 }
-simularResultAux.setXmlOpcionesRenovacion(new com.relative.QuskyOro.ObjetosNegocio.XmlOpcionesRenovacion());
+simularResultAux.setXmlOpcionesRenovacion(new com.relative.QuskiOro.ObjetosNegocio.XmlOpcionesRenovacion());
 if(variablesNegocio.getTotalGarantia() > 0){
     simularResultAux.getXmlOpcionesRenovacion().setOpcionesRenovacion(opcionRenovacion);
 }
@@ -992,10 +992,10 @@ kcontext.setVariable("salida",salida);]]></bpmn2:script>
       <bpmn2:incoming>_7E1C2FBF-9A14-4F49-83B3-6F51D0EB3834</bpmn2:incoming>
       <bpmn2:outgoing>_33D350A0-AD19-4F2C-9E0B-028C91B30644</bpmn2:outgoing>
       <bpmn2:ioSpecification id="_8bHhEM7AEem73flIFC4t1Q">
-        <bpmn2:dataInput id="_00EF2216-7973-47C5-B4FF-1F78ACCDA92E_opcionInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Opcion" itemSubjectRef="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_opcionInputXItem" name="opcion"/>
-        <bpmn2:dataInput id="_00EF2216-7973-47C5-B4FF-1F78ACCDA92E_variablesNegocioInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_variablesNegocioInputXItem" name="variablesNegocio"/>
-        <bpmn2:dataOutput id="_00EF2216-7973-47C5-B4FF-1F78ACCDA92E_opcionOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Opcion" itemSubjectRef="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_opcionOutputXItem" name="opcion"/>
-        <bpmn2:dataOutput id="_00EF2216-7973-47C5-B4FF-1F78ACCDA92E_variablesNegocioOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_variablesNegocioOutputXItem" name="variablesNegocio"/>
+        <bpmn2:dataInput id="_00EF2216-7973-47C5-B4FF-1F78ACCDA92E_opcionInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Opcion" itemSubjectRef="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_opcionInputXItem" name="opcion"/>
+        <bpmn2:dataInput id="_00EF2216-7973-47C5-B4FF-1F78ACCDA92E_variablesNegocioInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_variablesNegocioInputXItem" name="variablesNegocio"/>
+        <bpmn2:dataOutput id="_00EF2216-7973-47C5-B4FF-1F78ACCDA92E_opcionOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Opcion" itemSubjectRef="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_opcionOutputXItem" name="opcion"/>
+        <bpmn2:dataOutput id="_00EF2216-7973-47C5-B4FF-1F78ACCDA92E_variablesNegocioOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__00EF2216-7973-47C5-B4FF-1F78ACCDA92E_variablesNegocioOutputXItem" name="variablesNegocio"/>
         <bpmn2:inputSet id="_8bHhEc7AEem73flIFC4t1Q">
           <bpmn2:dataInputRefs>_00EF2216-7973-47C5-B4FF-1F78ACCDA92E_opcionInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_00EF2216-7973-47C5-B4FF-1F78ACCDA92E_variablesNegocioInputX</bpmn2:dataInputRefs>
@@ -1065,7 +1065,7 @@ kcontext.setVariable("index",(index+1));
       <bpmn2:incoming>_86D2E35C-6519-477E-A13C-A85579A27EB7</bpmn2:incoming>
       <bpmn2:outgoing>_BE33B4FC-82BA-4958-AA3E-844FB702BF8F</bpmn2:outgoing>
       <bpmn2:script><![CDATA[//INSTANCIAMOS EL OBJETO QUE ENVIARA TODO EL OUTPUT
-com.relative.QuskyOro.ObjetosNegocio.SimularResultSimulation simularResultSimulation = new com.relative.QuskyOro.ObjetosNegocio.SimularResultSimulation();
+com.relative.QuskiOro.ObjetosNegocio.SimularResultSimulation simularResultSimulation = new com.relative.QuskiOro.ObjetosNegocio.SimularResultSimulation();
 
 //SETEAMOS LOS VALORES POR DEFECTO DE LOS MENSAJES DE ERROR
 simularResultSimulation.setCodigoError(variablesNegocio.getCodigoError());
@@ -1081,16 +1081,16 @@ if(simularResultSimulation.getCodigoError().equals("0") && opcionRenovacion.getO
 }
 
 //CREAMOS EL OBJETO DE SIMULACION BASE A LAS OPCIONES DE CREDITOS OBTENIDAS
-java.util.ArrayList<com.relative.QuskyOro.ObjetosNegocio.OpcionSimulada> listaOpcionSimulada = new java.util.ArrayList<com.relative.QuskyOro.ObjetosNegocio.OpcionSimulada>();
-com.relative.QuskyOro.ObjetosNegocio.OpcionSimulada opcionSimulada = new com.relative.QuskyOro.ObjetosNegocio.OpcionSimulada();
-simularResultSimulation.setXmlOfertasSimuladas(new com.relative.QuskyOro.ObjetosNegocio.XmlOfertasSimuladas());
-simularResultSimulation.getXmlOfertasSimuladas().setOfertasSimuladas(new com.relative.QuskyOro.ObjetosNegocio.OfertasSimuladas());
+java.util.ArrayList<com.relative.QuskiOro.ObjetosNegocio.OpcionSimulada> listaOpcionSimulada = new java.util.ArrayList<com.relative.QuskiOro.ObjetosNegocio.OpcionSimulada>();
+com.relative.QuskiOro.ObjetosNegocio.OpcionSimulada opcionSimulada = new com.relative.QuskiOro.ObjetosNegocio.OpcionSimulada();
+simularResultSimulation.setXmlOfertasSimuladas(new com.relative.QuskiOro.ObjetosNegocio.XmlOfertasSimuladas());
+simularResultSimulation.getXmlOfertasSimuladas().setOfertasSimuladas(new com.relative.QuskiOro.ObjetosNegocio.OfertasSimuladas());
 
 if(variablesNegocio.getTotalGarantia() > 0){
     Double riesgoTotal = ((double)Math.round((Carga.getXmlVariablesInternas().getVariablesInternas().getRiesgoAcumulado() + variablesNegocio.getTotalGarantia())*100)/100);
 
-    for(com.relative.QuskyOro.ObjetosNegocio.Opcion opcionAux : opcionRenovacion.getOpcion()){
-        opcionSimulada = new com.relative.QuskyOro.ObjetosNegocio.OpcionSimulada(
+    for(com.relative.QuskiOro.ObjetosNegocio.Opcion opcionAux : opcionRenovacion.getOpcion()){
+        opcionSimulada = new com.relative.QuskiOro.ObjetosNegocio.OpcionSimulada(
             opcionAux.getPlazo(),
             (double)Math.round(opcionAux.getMontoFinanciado()*100)/100,
             riesgoTotal,
@@ -1106,7 +1106,7 @@ if(variablesNegocio.getTotalGarantia() > 0){
     simularResultSimulation.setCodigoError((String)kcontext.getKnowledgeRuntime().getGlobal("CodigoErrorSinGarantia"));
     simularResultSimulation.setMensaje((String)kcontext.getKnowledgeRuntime().getGlobal("MensajeErrorSinGarantia")); 
     }*/
-    opcionSimulada = new com.relative.QuskyOro.ObjetosNegocio.OpcionSimulada(
+    opcionSimulada = new com.relative.QuskiOro.ObjetosNegocio.OpcionSimulada(
         null,
         null,
         null,
@@ -1157,7 +1157,7 @@ if(Carga.getXmlDescuentosNuevaOperacion().getDescuentosOperacion().getMontoSolic
 }
 
 //INTANCIAMOS LA LISTA DE OPCIONES DE RENOVACION
-opcionRenovacion.setOpcion(new java.util.ArrayList<com.relative.QuskyOro.ObjetosNegocio.Opcion>());
+opcionRenovacion.setOpcion(new java.util.ArrayList<com.relative.QuskiOro.ObjetosNegocio.Opcion>());
 
 //REVISAMOS VALIDACION DE RIESGO TOTAL MAS GARANTIA PARA VER SI SOBREPASA LOS 19999
 Double riesgoTotal = Carga.getXmlVariablesInternas().getVariablesInternas().getRiesgoAcumulado() + variablesNegocio.getTotalGarantia();
@@ -1188,10 +1188,10 @@ System.out.println("<<<Colateral adicional: "+cliente.getColateralAdicional()+">
       <bpmn2:incoming>_09E7597B-E0FF-4F94-B929-AD780FFFBC8E</bpmn2:incoming>
       <bpmn2:outgoing>_568F78D7-7B37-41D3-9D55-C070F6814484</bpmn2:outgoing>
       <bpmn2:ioSpecification id="_8bHhF87AEem73flIFC4t1Q">
-        <bpmn2:dataInput id="_F0536E60-EAAD-41E9-80D7-24EB0FCA8291_clienteInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Cliente" itemSubjectRef="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_clienteInputXItem" name="cliente"/>
-        <bpmn2:dataInput id="_F0536E60-EAAD-41E9-80D7-24EB0FCA8291_variablesNegocioInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_variablesNegocioInputXItem" name="variablesNegocio"/>
-        <bpmn2:dataOutput id="_F0536E60-EAAD-41E9-80D7-24EB0FCA8291_clienteOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Cliente" itemSubjectRef="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_clienteOutputXItem" name="cliente"/>
-        <bpmn2:dataOutput id="_F0536E60-EAAD-41E9-80D7-24EB0FCA8291_variablesNegocioOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_variablesNegocioOutputXItem" name="variablesNegocio"/>
+        <bpmn2:dataInput id="_F0536E60-EAAD-41E9-80D7-24EB0FCA8291_clienteInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Cliente" itemSubjectRef="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_clienteInputXItem" name="cliente"/>
+        <bpmn2:dataInput id="_F0536E60-EAAD-41E9-80D7-24EB0FCA8291_variablesNegocioInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_variablesNegocioInputXItem" name="variablesNegocio"/>
+        <bpmn2:dataOutput id="_F0536E60-EAAD-41E9-80D7-24EB0FCA8291_clienteOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Cliente" itemSubjectRef="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_clienteOutputXItem" name="cliente"/>
+        <bpmn2:dataOutput id="_F0536E60-EAAD-41E9-80D7-24EB0FCA8291_variablesNegocioOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__F0536E60-EAAD-41E9-80D7-24EB0FCA8291_variablesNegocioOutputXItem" name="variablesNegocio"/>
         <bpmn2:inputSet id="_8bHhGM7AEem73flIFC4t1Q">
           <bpmn2:dataInputRefs>_F0536E60-EAAD-41E9-80D7-24EB0FCA8291_clienteInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_F0536E60-EAAD-41E9-80D7-24EB0FCA8291_variablesNegocioInputX</bpmn2:dataInputRefs>
@@ -1399,10 +1399,10 @@ ErroresTask]]></drools:metaValue>
       <bpmn2:incoming>_5B947B73-A866-44C1-832F-09A99D570787</bpmn2:incoming>
       <bpmn2:outgoing>_E9B6783E-423A-4BE8-8FAF-B0BBD0A6289D</bpmn2:outgoing>
       <bpmn2:ioSpecification id="_8bHhHs7AEem73flIFC4t1Q">
-        <bpmn2:dataInput id="_C7498481-B8C8-4DD3-83E9-87F0B706A3F1_variablesNegocioInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_variablesNegocioInputXItem" name="variablesNegocio"/>
-        <bpmn2:dataInput id="_C7498481-B8C8-4DD3-83E9-87F0B706A3F1_simularResultInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.SimularResult" itemSubjectRef="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_simularResultInputXItem" name="simularResult"/>
-        <bpmn2:dataOutput id="_C7498481-B8C8-4DD3-83E9-87F0B706A3F1_variablesNegocioOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_variablesNegocioOutputXItem" name="variablesNegocio"/>
-        <bpmn2:dataOutput id="_C7498481-B8C8-4DD3-83E9-87F0B706A3F1_simularResultOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.SimularResult" itemSubjectRef="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_simularResultOutputXItem" name="simularResult"/>
+        <bpmn2:dataInput id="_C7498481-B8C8-4DD3-83E9-87F0B706A3F1_variablesNegocioInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_variablesNegocioInputXItem" name="variablesNegocio"/>
+        <bpmn2:dataInput id="_C7498481-B8C8-4DD3-83E9-87F0B706A3F1_simularResultInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.SimularResult" itemSubjectRef="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_simularResultInputXItem" name="simularResult"/>
+        <bpmn2:dataOutput id="_C7498481-B8C8-4DD3-83E9-87F0B706A3F1_variablesNegocioOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_variablesNegocioOutputXItem" name="variablesNegocio"/>
+        <bpmn2:dataOutput id="_C7498481-B8C8-4DD3-83E9-87F0B706A3F1_simularResultOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.SimularResult" itemSubjectRef="__C7498481-B8C8-4DD3-83E9-87F0B706A3F1_simularResultOutputXItem" name="simularResult"/>
         <bpmn2:inputSet id="_8bHhH87AEem73flIFC4t1Q">
           <bpmn2:dataInputRefs>_C7498481-B8C8-4DD3-83E9-87F0B706A3F1_variablesNegocioInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_C7498481-B8C8-4DD3-83E9-87F0B706A3F1_simularResultInputX</bpmn2:dataInputRefs>
@@ -1438,10 +1438,10 @@ ErroresTask]]></drools:metaValue>
       <bpmn2:incoming>_16FBED1F-7A1E-42FF-970C-E7085767C84B</bpmn2:incoming>
       <bpmn2:outgoing>_FBB37C42-0812-4D90-9844-BAB0AC55D79F</bpmn2:outgoing>
       <bpmn2:ioSpecification id="_8bHhJc7AEem73flIFC4t1Q">
-        <bpmn2:dataInput id="_8E9A8E05-1644-417C-97F8-221E7C538E41_clienteInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Cliente" itemSubjectRef="__8E9A8E05-1644-417C-97F8-221E7C538E41_clienteInputXItem" name="cliente"/>
-        <bpmn2:dataInput id="_8E9A8E05-1644-417C-97F8-221E7C538E41_variablesNegocioInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__8E9A8E05-1644-417C-97F8-221E7C538E41_variablesNegocioInputXItem" name="variablesNegocio"/>
-        <bpmn2:dataOutput id="_8E9A8E05-1644-417C-97F8-221E7C538E41_clienteOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Cliente" itemSubjectRef="__8E9A8E05-1644-417C-97F8-221E7C538E41_clienteOutputXItem" name="cliente"/>
-        <bpmn2:dataOutput id="_8E9A8E05-1644-417C-97F8-221E7C538E41_variablesNegocioOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__8E9A8E05-1644-417C-97F8-221E7C538E41_variablesNegocioOutputXItem" name="variablesNegocio"/>
+        <bpmn2:dataInput id="_8E9A8E05-1644-417C-97F8-221E7C538E41_clienteInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Cliente" itemSubjectRef="__8E9A8E05-1644-417C-97F8-221E7C538E41_clienteInputXItem" name="cliente"/>
+        <bpmn2:dataInput id="_8E9A8E05-1644-417C-97F8-221E7C538E41_variablesNegocioInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__8E9A8E05-1644-417C-97F8-221E7C538E41_variablesNegocioInputXItem" name="variablesNegocio"/>
+        <bpmn2:dataOutput id="_8E9A8E05-1644-417C-97F8-221E7C538E41_clienteOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Cliente" itemSubjectRef="__8E9A8E05-1644-417C-97F8-221E7C538E41_clienteOutputXItem" name="cliente"/>
+        <bpmn2:dataOutput id="_8E9A8E05-1644-417C-97F8-221E7C538E41_variablesNegocioOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__8E9A8E05-1644-417C-97F8-221E7C538E41_variablesNegocioOutputXItem" name="variablesNegocio"/>
         <bpmn2:inputSet id="_8bHhJs7AEem73flIFC4t1Q">
           <bpmn2:dataInputRefs>_8E9A8E05-1644-417C-97F8-221E7C538E41_clienteInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_8E9A8E05-1644-417C-97F8-221E7C538E41_variablesNegocioInputX</bpmn2:dataInputRefs>
@@ -1483,7 +1483,7 @@ GarantiasTask]]></drools:metaValue>
       <bpmn2:incoming>_F1AB840E-7D56-47FC-9353-D2DADAF1A414</bpmn2:incoming>
       <bpmn2:outgoing>_E051D8C1-5626-4D2B-9339-3788635DE22F</bpmn2:outgoing>
       <bpmn2:script><![CDATA[//INSTANCIAMOS EL OBJETO QUE ENVIARA TODO EL OUTPUT
-com.relative.QuskyOro.ObjetosNegocio.SimularResult simularResultGarantias = new com.relative.QuskyOro.ObjetosNegocio.SimularResult();
+com.relative.QuskiOro.ObjetosNegocio.SimularResult simularResultGarantias = new com.relative.QuskiOro.ObjetosNegocio.SimularResult();
 
 //SETEAMOS LOS VALORES POR DEFECTO DE LOS MENSAJES DE ERROR
 simularResultGarantias.setCodigoError(variablesNegocio.getCodigoError());
@@ -1523,12 +1523,12 @@ kcontext.setVariable("salida",salida);]]></bpmn2:script>
       <bpmn2:incoming>_B3EFF2CC-F6C9-4EE7-9081-D590FC0A52AE</bpmn2:incoming>
       <bpmn2:outgoing>_B85D5122-814E-41E3-A6DA-150FD096AD93</bpmn2:outgoing>
       <bpmn2:ioSpecification id="_8bLycM7AEem73flIFC4t1Q">
-        <bpmn2:dataInput id="_A05B98CA-7075-49B0-A50A-193E60823D96_opcionRenovacionInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.OpcionesRenovacion" itemSubjectRef="__A05B98CA-7075-49B0-A50A-193E60823D96_opcionRenovacionInputXItem" name="opcionRenovacion"/>
-        <bpmn2:dataInput id="_A05B98CA-7075-49B0-A50A-193E60823D96_clienteInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Cliente" itemSubjectRef="__A05B98CA-7075-49B0-A50A-193E60823D96_clienteInputXItem" name="cliente"/>
-        <bpmn2:dataInput id="_A05B98CA-7075-49B0-A50A-193E60823D96_variablesNegocioInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__A05B98CA-7075-49B0-A50A-193E60823D96_variablesNegocioInputXItem" name="variablesNegocio"/>
-        <bpmn2:dataOutput id="_A05B98CA-7075-49B0-A50A-193E60823D96_opcionRenovacionOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.OpcionesRenovacion" itemSubjectRef="__A05B98CA-7075-49B0-A50A-193E60823D96_opcionRenovacionOutputXItem" name="opcionRenovacion"/>
-        <bpmn2:dataOutput id="_A05B98CA-7075-49B0-A50A-193E60823D96_clienteOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Cliente" itemSubjectRef="__A05B98CA-7075-49B0-A50A-193E60823D96_clienteOutputXItem" name="cliente"/>
-        <bpmn2:dataOutput id="_A05B98CA-7075-49B0-A50A-193E60823D96_variablesNegocioOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__A05B98CA-7075-49B0-A50A-193E60823D96_variablesNegocioOutputXItem" name="variablesNegocio"/>
+        <bpmn2:dataInput id="_A05B98CA-7075-49B0-A50A-193E60823D96_opcionRenovacionInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.OpcionesRenovacion" itemSubjectRef="__A05B98CA-7075-49B0-A50A-193E60823D96_opcionRenovacionInputXItem" name="opcionRenovacion"/>
+        <bpmn2:dataInput id="_A05B98CA-7075-49B0-A50A-193E60823D96_clienteInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Cliente" itemSubjectRef="__A05B98CA-7075-49B0-A50A-193E60823D96_clienteInputXItem" name="cliente"/>
+        <bpmn2:dataInput id="_A05B98CA-7075-49B0-A50A-193E60823D96_variablesNegocioInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__A05B98CA-7075-49B0-A50A-193E60823D96_variablesNegocioInputXItem" name="variablesNegocio"/>
+        <bpmn2:dataOutput id="_A05B98CA-7075-49B0-A50A-193E60823D96_opcionRenovacionOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.OpcionesRenovacion" itemSubjectRef="__A05B98CA-7075-49B0-A50A-193E60823D96_opcionRenovacionOutputXItem" name="opcionRenovacion"/>
+        <bpmn2:dataOutput id="_A05B98CA-7075-49B0-A50A-193E60823D96_clienteOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Cliente" itemSubjectRef="__A05B98CA-7075-49B0-A50A-193E60823D96_clienteOutputXItem" name="cliente"/>
+        <bpmn2:dataOutput id="_A05B98CA-7075-49B0-A50A-193E60823D96_variablesNegocioOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio" itemSubjectRef="__A05B98CA-7075-49B0-A50A-193E60823D96_variablesNegocioOutputXItem" name="variablesNegocio"/>
         <bpmn2:inputSet id="_8bLycc7AEem73flIFC4t1Q">
           <bpmn2:dataInputRefs>_A05B98CA-7075-49B0-A50A-193E60823D96_opcionRenovacionInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_A05B98CA-7075-49B0-A50A-193E60823D96_clienteInputX</bpmn2:dataInputRefs>
@@ -1574,8 +1574,8 @@ kcontext.setVariable("salida",salida);]]></bpmn2:script>
       <bpmn2:incoming>_84155A1B-9BDF-445F-B0AE-7D3C33E885A5</bpmn2:incoming>
       <bpmn2:outgoing>_AA3679D0-50A9-4CD8-ACDD-ABE7F2408B47</bpmn2:outgoing>
       <bpmn2:ioSpecification id="_8bLyec7AEem73flIFC4t1Q">
-        <bpmn2:dataInput id="_C311A382-789D-44FD-B63F-77131CBCC38D_garantiaInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Garantia" itemSubjectRef="__C311A382-789D-44FD-B63F-77131CBCC38D_garantiaInputXItem" name="garantia"/>
-        <bpmn2:dataOutput id="_C311A382-789D-44FD-B63F-77131CBCC38D_garantiaOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Garantia" itemSubjectRef="__C311A382-789D-44FD-B63F-77131CBCC38D_garantiaOutputXItem" name="garantia"/>
+        <bpmn2:dataInput id="_C311A382-789D-44FD-B63F-77131CBCC38D_garantiaInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Garantia" itemSubjectRef="__C311A382-789D-44FD-B63F-77131CBCC38D_garantiaInputXItem" name="garantia"/>
+        <bpmn2:dataOutput id="_C311A382-789D-44FD-B63F-77131CBCC38D_garantiaOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Garantia" itemSubjectRef="__C311A382-789D-44FD-B63F-77131CBCC38D_garantiaOutputXItem" name="garantia"/>
         <bpmn2:inputSet id="_8bLyes7AEem73flIFC4t1Q">
           <bpmn2:dataInputRefs>_C311A382-789D-44FD-B63F-77131CBCC38D_garantiaInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
@@ -1601,10 +1601,10 @@ kcontext.setVariable("salida",salida);]]></bpmn2:script>
       <bpmn2:incoming>_EDD68CDE-FA39-4B5C-85EA-E37C2BD7D457</bpmn2:incoming>
       <bpmn2:outgoing>_C6BE9902-5EB0-4E4F-B031-46DBA375C352</bpmn2:outgoing>
       <bpmn2:ioSpecification id="_8bLyfs7AEem73flIFC4t1Q">
-        <bpmn2:dataInput id="_C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_clienteInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Cliente" itemSubjectRef="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_clienteInputXItem" name="cliente"/>
-        <bpmn2:dataInput id="_C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_opcionInputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Opcion" itemSubjectRef="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_opcionInputXItem" name="opcion"/>
-        <bpmn2:dataOutput id="_C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_clienteOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Cliente" itemSubjectRef="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_clienteOutputXItem" name="cliente"/>
-        <bpmn2:dataOutput id="_C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_opcionOutputX" drools:dtype="com.relative.QuskyOro.ObjetosNegocio.Opcion" itemSubjectRef="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_opcionOutputXItem" name="opcion"/>
+        <bpmn2:dataInput id="_C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_clienteInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Cliente" itemSubjectRef="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_clienteInputXItem" name="cliente"/>
+        <bpmn2:dataInput id="_C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_opcionInputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Opcion" itemSubjectRef="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_opcionInputXItem" name="opcion"/>
+        <bpmn2:dataOutput id="_C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_clienteOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Cliente" itemSubjectRef="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_clienteOutputXItem" name="cliente"/>
+        <bpmn2:dataOutput id="_C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_opcionOutputX" drools:dtype="com.relative.QuskiOro.ObjetosNegocio.Opcion" itemSubjectRef="__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_opcionOutputXItem" name="opcion"/>
         <bpmn2:inputSet id="_8bLyf87AEem73flIFC4t1Q">
           <bpmn2:dataInputRefs>_C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_clienteInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE_opcionInputX</bpmn2:dataInputRefs>
@@ -1633,7 +1633,7 @@ kcontext.setVariable("salida",salida);]]></bpmn2:script>
     </bpmn2:businessRuleTask>
   </bpmn2:process>
   <bpmndi:BPMNDiagram id="_8bLyhc7AEem73flIFC4t1Q">
-    <bpmndi:BPMNPlane id="_8bLyhs7AEem73flIFC4t1Q" bpmnElement="QuskyOro.FlujoNovacion">
+    <bpmndi:BPMNPlane id="_8bLyhs7AEem73flIFC4t1Q" bpmnElement="QuskiOro.FlujoNovacion">
       <bpmndi:BPMNShape id="shape__C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE" bpmnElement="_C32F3AE7-CC70-4F38-8E3F-4E5C9F9318AE">
         <dc:Bounds height="102.0" width="154.0" x="84.0" y="352.0"/>
       </bpmndi:BPMNShape>

@@ -50,7 +50,7 @@
                           <genericType>String</genericType>
                         </next>
                         <name>variablesNegocio</name>
-                        <classType>com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio</classType>
+                        <classType>com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio</classType>
                         <genericType>this</genericType>
                       </next>
                       <name>VariablesNegocio</name>
@@ -80,7 +80,7 @@
           <factField>getTipoOperacion()</factField>
           <fieldType>String</fieldType>
           <varName>param1</varName>
-          <factType>com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio</factType>
+          <factType>com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
@@ -115,7 +115,7 @@
                           <genericType>String</genericType>
                         </next>
                         <name>cliente</name>
-                        <classType>com.relative.QuskyOro.ObjetosNegocio.Cliente</classType>
+                        <classType>com.relative.QuskiOro.ObjetosNegocio.Cliente</classType>
                         <genericType>this</genericType>
                       </next>
                       <name>Cliente</name>
@@ -145,7 +145,7 @@
           <factField>getGrupo()</factField>
           <fieldType>String</fieldType>
           <varName>param2</varName>
-          <factType>com.relative.QuskyOro.ObjetosNegocio.Cliente</factType>
+          <factType>com.relative.QuskiOro.ObjetosNegocio.Cliente</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
@@ -180,7 +180,7 @@
                           <genericType>String</genericType>
                         </next>
                         <name>opcion</name>
-                        <classType>com.relative.QuskyOro.ObjetosNegocio.Opcion</classType>
+                        <classType>com.relative.QuskiOro.ObjetosNegocio.Opcion</classType>
                         <genericType>this</genericType>
                       </next>
                       <name>Opcion</name>
@@ -210,7 +210,7 @@
           <factField>getTIPO_OFERTA()</factField>
           <fieldType>String</fieldType>
           <varName>param3</varName>
-          <factType>com.relative.QuskyOro.ObjetosNegocio.Opcion</factType>
+          <factType>com.relative.QuskiOro.ObjetosNegocio.Opcion</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
@@ -369,17 +369,17 @@
   <imports>
     <imports>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.Cliente</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.Cliente</type>
       </org.kie.soup.project.datamodel.imports.Import>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.Opcion</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.Opcion</type>
       </org.kie.soup.project.datamodel.imports.Import>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio</type>
       </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
-  <packageName>com.relative.QuskyOro.Matrices</packageName>
+  <packageName>com.relative.QuskiOro.Matrices</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>

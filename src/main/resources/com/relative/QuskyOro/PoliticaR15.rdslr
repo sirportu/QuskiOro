@@ -1,8 +1,8 @@
-package com.relative.QuskyOro;
+package com.relative.QuskiOro;
 
 import java.lang.Number;
-import com.relative.QuskyOro.ObjetosNegocio.Opcion;
-import com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio;
+import com.relative.QuskiOro.ObjetosNegocio.Opcion;
+import com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio;
 
 rule "PoliticaR15"
 	dialect "mvel"

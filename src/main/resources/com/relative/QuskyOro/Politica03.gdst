@@ -180,14 +180,14 @@
   <imports>
     <imports>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio</type>
       </org.kie.soup.project.datamodel.imports.Import>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.Cliente</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.Cliente</type>
       </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
-  <packageName>com.relative.QuskyOro</packageName>
+  <packageName>com.relative.QuskiOro</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>

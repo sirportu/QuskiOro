@@ -1,9 +1,9 @@
-package com.relative.QuskyOro;
+package com.relative.QuskiOro;
 
 import java.lang.Number;
-import com.relative.QuskyOro.ObjetosNegocio.ParametrosRiesgo;
-import com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio;
-import com.relative.QuskyOro.ObjetosNegocio.Cliente;
+import com.relative.QuskiOro.ObjetosNegocio.ParametrosRiesgo;
+import com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio;
+import com.relative.QuskiOro.ObjetosNegocio.Cliente;
 
 rule "PoliticaR17"
 	dialect "mvel"

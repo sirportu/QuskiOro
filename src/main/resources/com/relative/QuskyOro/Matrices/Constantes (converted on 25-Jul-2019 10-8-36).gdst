@@ -98,7 +98,7 @@
   <imports>
     <imports/>
   </imports>
-  <packageName>com.relative.QuskyOro.Matrices</packageName>
+  <packageName>com.relative.QuskiOro.Matrices</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>

@@ -50,7 +50,7 @@
                           <genericType>String</genericType>
                         </next>
                         <name>cliente</name>
-                        <classType>com.relative.QuskyOro.ObjetosNegocio.Cliente</classType>
+                        <classType>com.relative.QuskiOro.ObjetosNegocio.Cliente</classType>
                         <genericType>this</genericType>
                       </next>
                       <name>Cliente</name>
@@ -86,7 +86,7 @@
                           <genericType>String</genericType>
                         </next>
                         <name>cliente</name>
-                        <classType>com.relative.QuskyOro.ObjetosNegocio.Cliente</classType>
+                        <classType>com.relative.QuskiOro.ObjetosNegocio.Cliente</classType>
                         <genericType>this</genericType>
                       </next>
                       <name>Cliente</name>
@@ -122,7 +122,7 @@
                           <genericType>String</genericType>
                         </next>
                         <name>cliente</name>
-                        <classType>com.relative.QuskyOro.ObjetosNegocio.Cliente</classType>
+                        <classType>com.relative.QuskiOro.ObjetosNegocio.Cliente</classType>
                         <genericType>this</genericType>
                       </next>
                       <name>Cliente</name>
@@ -158,7 +158,7 @@
                           <genericType>String</genericType>
                         </next>
                         <name>cliente</name>
-                        <classType>com.relative.QuskyOro.ObjetosNegocio.Cliente</classType>
+                        <classType>com.relative.QuskiOro.ObjetosNegocio.Cliente</classType>
                         <genericType>this</genericType>
                       </next>
                       <name>Cliente</name>
@@ -194,7 +194,7 @@
                           <genericType>String</genericType>
                         </next>
                         <name>cliente</name>
-                        <classType>com.relative.QuskyOro.ObjetosNegocio.Cliente</classType>
+                        <classType>com.relative.QuskiOro.ObjetosNegocio.Cliente</classType>
                         <genericType>this</genericType>
                       </next>
                       <name>Cliente</name>
@@ -230,7 +230,7 @@
                           <genericType>String</genericType>
                         </next>
                         <name>cliente</name>
-                        <classType>com.relative.QuskyOro.ObjetosNegocio.Cliente</classType>
+                        <classType>com.relative.QuskiOro.ObjetosNegocio.Cliente</classType>
                         <genericType>this</genericType>
                       </next>
                       <name>Cliente</name>
@@ -266,7 +266,7 @@
                           <genericType>String</genericType>
                         </next>
                         <name>cliente</name>
-                        <classType>com.relative.QuskyOro.ObjetosNegocio.Cliente</classType>
+                        <classType>com.relative.QuskiOro.ObjetosNegocio.Cliente</classType>
                         <genericType>this</genericType>
                       </next>
                       <name>Cliente</name>
@@ -302,7 +302,7 @@
                           <genericType>String</genericType>
                         </next>
                         <name>cliente</name>
-                        <classType>com.relative.QuskyOro.ObjetosNegocio.Cliente</classType>
+                        <classType>com.relative.QuskiOro.ObjetosNegocio.Cliente</classType>
                         <genericType>this</genericType>
                       </next>
                       <name>Cliente</name>
@@ -332,7 +332,7 @@
           <factField>getTiempoCancelacion()</factField>
           <fieldType>String</fieldType>
           <varName>param1</varName>
-          <factType>com.relative.QuskyOro.ObjetosNegocio.Cliente</factType>
+          <factType>com.relative.QuskiOro.ObjetosNegocio.Cliente</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
@@ -342,7 +342,7 @@
           <factField>getTiempoCancelacion()</factField>
           <fieldType>String</fieldType>
           <varName>param2</varName>
-          <factType>com.relative.QuskyOro.ObjetosNegocio.Cliente</factType>
+          <factType>com.relative.QuskiOro.ObjetosNegocio.Cliente</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
@@ -352,7 +352,7 @@
           <factField>getScoreComportamiento()</factField>
           <fieldType>String</fieldType>
           <varName>param3</varName>
-          <factType>com.relative.QuskyOro.ObjetosNegocio.Cliente</factType>
+          <factType>com.relative.QuskiOro.ObjetosNegocio.Cliente</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
@@ -362,7 +362,7 @@
           <factField>getScoreComportamiento()</factField>
           <fieldType>String</fieldType>
           <varName>param4</varName>
-          <factType>com.relative.QuskyOro.ObjetosNegocio.Cliente</factType>
+          <factType>com.relative.QuskiOro.ObjetosNegocio.Cliente</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
@@ -372,7 +372,7 @@
           <factField>getDiasMoraPromedio()</factField>
           <fieldType>String</fieldType>
           <varName>param5</varName>
-          <factType>com.relative.QuskyOro.ObjetosNegocio.Cliente</factType>
+          <factType>com.relative.QuskiOro.ObjetosNegocio.Cliente</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
@@ -382,7 +382,7 @@
           <factField>getDiasMoraMaximo()</factField>
           <fieldType>String</fieldType>
           <varName>param6</varName>
-          <factType>com.relative.QuskyOro.ObjetosNegocio.Cliente</factType>
+          <factType>com.relative.QuskiOro.ObjetosNegocio.Cliente</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
@@ -392,7 +392,7 @@
           <factField>getDiasMoraPromedio()</factField>
           <fieldType>String</fieldType>
           <varName>param7</varName>
-          <factType>com.relative.QuskyOro.ObjetosNegocio.Cliente</factType>
+          <factType>com.relative.QuskiOro.ObjetosNegocio.Cliente</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
@@ -402,7 +402,7 @@
           <factField>getDiasMoraMaximo()</factField>
           <fieldType>String</fieldType>
           <varName>param8</varName>
-          <factType>com.relative.QuskyOro.ObjetosNegocio.Cliente</factType>
+          <factType>com.relative.QuskiOro.ObjetosNegocio.Cliente</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
@@ -441,11 +441,11 @@
   <imports>
     <imports>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.relative.QuskyOro.ObjetosNegocio.Cliente</type>
+        <type>com.relative.QuskiOro.ObjetosNegocio.Cliente</type>
       </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
-  <packageName>com.relative.QuskyOro.Matrices</packageName>
+  <packageName>com.relative.QuskiOro.Matrices</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
   <data>

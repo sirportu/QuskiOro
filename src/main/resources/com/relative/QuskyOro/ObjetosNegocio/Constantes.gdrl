@@ -1,4 +1,4 @@
-package com.relative.QuskyOro.ObjetosNegocio;
+package com.relative.QuskiOro.ObjetosNegocio;
 
 global java.lang.Double GramosPorOnza;
 global java.lang.Double MultiploRealizacion;
