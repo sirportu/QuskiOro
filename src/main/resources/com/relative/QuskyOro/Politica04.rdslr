@@ -1,0 +1,15 @@
+package com.relative.QuskyOro;
+
+import com.relative.QuskyOro.ObjetosNegocio.Cliente;
+import com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio;
+
+rule "Politica04"
+	dialect "mvel"
+	ruleflow-group "Politica04"
+	when
+		>cliente : Cliente( tipo != "Q" , tipo != "C1" , tipo != "C2" )
+		>variablesNegocio : VariablesNegocio( )
+	then
+		>variablesNegocio.setDetener( true );
+		>variablesNegocio.getCodigoPolitica().add("4");
+end

@@ -1,0 +1,12 @@
+package com.relative.QuskyOro;
+
+import java.lang.Number;
+import com.relative.QuskyOro.ObjetosNegocio.Opcion;
+import com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio;
+
+rule "PoliticaR15"
+	dialect "mvel"
+	ruleflow-group "PoliticaR15"
+	when
+	then
+end

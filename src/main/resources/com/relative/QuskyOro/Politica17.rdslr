@@ -1,0 +1,17 @@
+package com.relative.QuskyOro;
+
+import java.lang.Number;
+import com.relative.QuskyOro.ObjetosNegocio.ParametrosRiesgo;
+import com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio;
+import com.relative.QuskyOro.ObjetosNegocio.Cliente;
+
+rule "Politica17"
+	dialect "mvel"
+	ruleflow-group "Politica17"
+	when
+		>parametrosRiesgo : ParametrosRiesgo( riesgoTotal > "20000" )
+		>Cliente( colateralExcepcionada == 0 )
+		>variablesNegocio : VariablesNegocio( )
+	then
+		>variablesNegocio.getCodigoPolitica().add("17");
+end

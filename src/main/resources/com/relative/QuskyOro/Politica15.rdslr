@@ -1,0 +1,15 @@
+package com.relative.QuskyOro;
+
+import java.lang.Number;
+import com.relative.QuskyOro.ObjetosNegocio.Opcion;
+import com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio;
+
+rule "Politica15"
+	dialect "mvel"
+	ruleflow-group "Politica15"
+	when
+		>opcion : Opcion( montoFinanciado < 200 )
+		>variablesNegocio : VariablesNegocio( )
+	then
+		>variablesNegocio.getCodigoPolitica().add("15");
+end

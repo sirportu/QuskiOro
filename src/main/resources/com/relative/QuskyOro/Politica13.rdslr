@@ -1,0 +1,16 @@
+package com.relative.QuskyOro;
+
+import java.lang.Number;
+import com.relative.QuskyOro.ObjetosNegocio.Cliente;
+import com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio;
+
+rule "Politica13"
+	dialect "mvel"
+	ruleflow-group "Politica13"
+	when
+		>cliente : Cliente( impagoQuski == "S" )
+		>variablesNegocio : VariablesNegocio( )
+	then
+		>variablesNegocio.setDetener( true );
+		>variablesNegocio.getCodigoPolitica().add("13");
+end

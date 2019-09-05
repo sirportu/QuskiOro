@@ -1,0 +1,15 @@
+package com.relative.QuskyOro;
+
+import com.relative.QuskyOro.ObjetosNegocio.Cliente;
+import com.relative.QuskyOro.ObjetosNegocio.VariablesNegocio;
+
+rule "PoliticaR11"
+	dialect "mvel"
+	ruleflow-group "PoliticaR11"
+	when
+		>cliente : Cliente( vinculadoQuski == "S" )
+		>variablesNegocio : VariablesNegocio( )
+	then
+		>variablesNegocio.setDetener( true );
+		>variablesNegocio.getCodigoPolitica().add("11");
+end
