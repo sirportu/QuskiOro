@@ -1,9 +1,0 @@
-package com.relative.QuskiOro;
-
-import java.lang.Number;
-
-rule "PoliticaR02"
-	dialect "mvel"
-	when
-	then
-end
