@@ -1,0 +1,13 @@
+package com.relative.QuskiOro;
+
+import com.relative.QuskiOro.ObjetosNegocio.Cliente;
+import com.relative.QuskiOro.ObjetosNegocio.VariablesNegocio;
+
+rule "PoliticaR27"
+	dialect "mvel"
+	ruleflow-group "PoliticaR27"
+	when
+		>variablesNegocio : VariablesNegocio( retanqueo == "NO" , tipoCreditoAnterior == "C" )
+	then
+		>variablesNegocio.getCodigoPolitica().add("27");
+end
